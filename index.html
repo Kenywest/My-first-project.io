@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="keywords" content="записи, шпаргалки,самое нужное">
+    <meta name="description" content="Все самое интересное и важное">
+    <link rel="stylesheet" href="01.selector.css">
+    <link rel="stylesheet" href="02.stile.css">
+    <style>
+        body {
+            background: #aed3b7b7;
+        }
+
+        @media (max-width: 500px) {
+            .body {
+                font-size: 1.5rem;
+                padding: 10px;
+                text-align: center;
+            }
+            
+        }
+
+        .box {
+            background: darkorchid;
+            color: #fff;
+            padding: 10px;
+            border: 4px solid red;
+            margin: 10px;
+            box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="https://media.smallbiztrends.com/2023/06/cybersecurity-job-description.png" width="300"
+        alt="здесь фото тестировщика">
+
+    <div class="cards">
+        <h1>Савушкин Эмиль</h1>
+
+        <p>Прохожу курсы <strong>тестировщика</strong> и разработки <em>Frontend</em></p>
+    </div>
+    <hr>
+    <div class="card1 border-1">
+        <p>
+        <h2><strong>Социальные сети</strong></h2>
+
+        <a href=" https://wa.me/qr/KPYKSLW7W2AA1" target="_blank">WhatsApp</a>
+        </p>
+    </div>
+    <div class="card1 border-2 box">
+        <p>
+
+        <h2>Хобби</h2>
+
+        <ul>
+            <li>Активный отдых
+                <ul>
+                    <li>Походы</li>
+                    <li>Рыбалка</li>
+                    <li>Сапсёрфинг</li>
+                </ul>
+            </li>
+            <li>Разработка</li>
+            <li>Кулинария</li>
+            <li>Тестирование</li>
+        </ul>
+        </p>
+    </div>
+    <div class="card1 border-3">
+        <p>
+        <h2>Опыт работы</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Parck Palas</td>
+                    <td>Повар</td>
+                    <td>2011-2013</td>
+                </tr>
+                <tr>
+                    <td>Hotel 5stars</td>
+                    <td>Су-Шеф</td>
+                    <td>2014-2025</td>
+                </tr>
+            </tbody>
+        </table>
+        </p>
+    </div>
+    <header id="header">
+        <h2>Связаться со мной</h2>
+    </header>
+    <form></form>
+    <div class="card html">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" placeholder="Введите имя">
+    </div>
+    <div class="card css">
+        <label for="email">Ваш Email:</label>
+        <input type="email" id="email" placeholder="Введите Email">
+    </div>
+    <br>
+    <div>
+        <label for="message">Сообщение:</label>
+        <br>
+        <textarea id="message" cols="25" rows="5" placeholder="Здесь можно писать текст"></textarea>
+    </div>
+
+    <button type="submit">Отправить форму</button>
+    </form>
+
+</body>
+
+</html>

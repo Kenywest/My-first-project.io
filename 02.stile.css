@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&family=Suranna&display=swap');
+
+body {
+    /*font-family: Verdana;*/
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: normal;
+    /* font: normal 15px Roboto, sans-serif; */
+   /*text-decoration: underline;*/
+   /* font-style: italic;*/
+   /*letter-spacing: 2px;*/
+   word-spacing: 5px;
+   background: #f1f1f1;
+   color: #040b0f;
+}
+
+/* .cards p { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+} */
+ .card1 {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px
+ }
+
+ .border-1 {
+    background: rgb(84, 235, 84);
+ }
+
+ .border-2 {
+    background: rgb(240, 199, 16);
+ }
+
+ .border-3 {
+    background: rebeccapurple;
+ }
